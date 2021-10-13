@@ -9,6 +9,11 @@ const Banner = () => {
             <Row>
                 <div className="banner">
                     <img src={bannerBg} alt="" />
+                    <div className="search">
+                        <h1>Best food waiting for your belly</h1>
+                        <input type="text" placeholder="Search your meal" />
+                        <button>search</button>
+                    </div>
                 </div>
             </Row>
         </div>
