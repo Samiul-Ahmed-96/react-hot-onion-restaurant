@@ -1,50 +1,50 @@
 [
   {
     "id": "1",
-    "name": "Toast Croissant Fried egg",
+    "name": "Healthy Meal Plan",
     "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
-    "img": "https://i.ibb.co/VS8rW4b/breakfast1.png",
-    "price": "6.99",
+    "img": "https://i.ibb.co/s5mSR37/lunch1.png",
+    "price": "23.99",
     "rating": "4.3"
   },
   {
     "id": "2",
-    "name": "Breakfast Sandwich",
+    "name": "Fried Chicken bento",
     "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
-    "img": "https://i.ibb.co/7pG56V6/breakfast2.png",
+    "img": "https://i.ibb.co/VLQygKn/lunch2.png",
     "price": "9.99",
     "rating": "4.6"
   },
   {
     "id": "3",
-    "name": "Baked Chicken",
+    "name": "Tomato Rubbed Salmon",
     "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
-    "img": "https://i.ibb.co/0hJ34cw/breakfast3.png",
+    "img": "https://i.ibb.co/Gnys72j/lunch3.png",
     "price": "10.99",
     "rating": "4.5"
   },
   {
     "id": "4",
-    "name": "Eggs Benedict",
+    "name": "Indian Lunch",
     "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
-    "img": "https://i.ibb.co/ZmgzqVL/breakfast4.png",
+    "img": "https://i.ibb.co/RYhfffR/lunch4.png",
     "price": "8.99",
     "rating": "4.7"
   },
   {
     "id": "5",
-    "name": "Toast Croissant Fried egg",
+    "name": "Beef Steak",
     "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
-    "img": "https://i.ibb.co/9ytgf3p/breakfast5.png",
-    "price": "19.99",
+    "img": "https://i.ibb.co/dK9QY6V/lunch5.png",
+    "price": "15.99",
     "rating": "4.4"
   },
   {
     "id": "6",
-    "name": "Fried Egg Toast Brunch",
+    "name": "Salmon With Peppers",
     "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
-    "img": "https://i.ibb.co/7pG56V6/breakfast2.png",
-    "price": "3.99",
+    "img": "https://i.ibb.co/R4833Fs/lunch6.png",
+    "price": "7.99",
     "rating": "4.9"
   }
 ]
