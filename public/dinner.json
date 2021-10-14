@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Salmon with grape fruit",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "img": "https://i.ibb.co/f4Gx5TS/dinner1.png",
+    "price": "9.99",
+    "rating": "4.3"
+  },
+  {
+    "id": "2",
+    "name": "Lemony Salmon",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "img": "https://i.ibb.co/ccNhwVS/dinner2.png",
+    "price": "10.99",
+    "rating": "4.6"
+  },
+  {
+    "id": "3",
+    "name": "Pork Tenderloin",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "img": "https://i.ibb.co/hKgkRyd/dinner3.png",
+    "price": "12.99",
+    "rating": "4.5"
+  },
+  {
+    "id": "4",
+    "name": "French fries with cheese",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "img": "https://i.ibb.co/54LZw9t/dinner4.png",
+    "price": "8.99",
+    "rating": "4.7"
+  },
+  {
+    "id": "5",
+    "name": "Garlic Buttur Baked salmon",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "img": "https://i.ibb.co/2qpK5Mp/dinner5.png",
+    "price": "7.99",
+    "rating": "4.4"
+  },
+  {
+    "id": "6",
+    "name": "Baked Chicken",
+    "description": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "img": "https://i.ibb.co/5spn6Z9/dinner6.png",
+    "price": "13.99",
+    "rating": "4.9"
+  }
+]
