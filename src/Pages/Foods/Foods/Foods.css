@@ -1,0 +1,26 @@
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: #f00;
+  font-weight: 600;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav-tabs {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 40px;
+}
+.checkoutBtn {
+  border: 2px solid red;
+  background: #222222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 25px 0px;
+  transition: 0.3s;
+}
+.checkoutBtn:hover {
+  background: red;
+}

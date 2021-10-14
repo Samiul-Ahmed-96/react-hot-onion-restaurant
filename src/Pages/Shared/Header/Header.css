@@ -6,6 +6,7 @@
 }
 .header {
   background: #222;
+  border-bottom: 5px solid red;
 }
 .header-main {
   padding: 20px 0px;
