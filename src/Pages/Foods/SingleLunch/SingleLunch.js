@@ -1,8 +1,9 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const SingleLunch = (props) => {
-    const {name,description,price,rating,img} = props.lunchItem;
+    const {id,name,description,price,rating,img} = props.lunchItem;
     return (
             <Col md={4} sm={6} xs={12}>
                 <div className="breakfast-item">
@@ -11,6 +12,9 @@ const SingleLunch = (props) => {
                     <p>{description}</p>
                     <small>{rating}</small>
                     <h3>${price}</h3>
+                    <Link to={`/food/${id}`}>
+                    <button>More Details</button>
+                    </Link>
                 </div>
             </Col>
     );

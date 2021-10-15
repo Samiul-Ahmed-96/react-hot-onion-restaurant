@@ -21,6 +21,7 @@ const Header = () => {
                                 <div className="main-menu">
                                     <ul>
                                         <li><Link to="/cart" className="cartIcon"><img src={cartIcon} alt="" /></Link></li>
+                                        <li><Link to="/home">Home</Link></li>
                                         <li><Link to="/login">Login</Link></li>
                                         <li><Link to="/signup" className="SignUp">Sign up</Link></li>
                                     </ul>

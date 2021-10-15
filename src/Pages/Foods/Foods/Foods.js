@@ -20,7 +20,7 @@ const Foods = () => {
                 <Dinner></Dinner>
             </Tab>
           </Tabs>
-          <button className="checkoutBtn">CheckOut Your Food</button>
+          
         </Container>
     );
 };

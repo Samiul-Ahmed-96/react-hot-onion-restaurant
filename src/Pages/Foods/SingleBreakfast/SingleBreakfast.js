@@ -1,9 +1,10 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "./SingleBreakfast.css";
 
 const SingleBreakfast = (props) => {
-    const {name,description,price,rating,img} = props.breakfastItem;
+    const {id,name,description,price,rating,img} = props.breakfastItem;
     return (
             <Col md={4} sm={6} xs={12}>
                 <div className="breakfast-item">
@@ -12,6 +13,9 @@ const SingleBreakfast = (props) => {
                     <p>{description}</p>
                     <small>{rating}</small>
                     <h3>${price}</h3>
+                    <Link to={`/food/${id}`}>
+                    <button>More Details</button>
+                    </Link>
                 </div>
             </Col>
     );
