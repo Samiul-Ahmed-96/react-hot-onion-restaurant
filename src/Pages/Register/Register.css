@@ -5,8 +5,8 @@
 }
 
 .form-item.text-white {
-    text-align: center;
-    margin: 60px 0px;
+  text-align: center;
+  margin: 90px 0px;
 }
 .form-item button {
   padding: 10px 15px;
@@ -20,13 +20,12 @@
   width: 50%;
 }
 .form-item input {
-    display: block;
-    width: 50%;
-    margin: 10px auto;
-    background: #2c2c2c;
-    color: #fff;
-    border-radius: 10px;
-    border-1px border: solid;
-    padding: 10px;
-    border: none;
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  background: #2c2c2c;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
 }

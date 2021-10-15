@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../Images/logo.png';
+import './Register.css';
 const Register = () => {
     return (
         <Container>
@@ -15,6 +16,9 @@ const Register = () => {
                             <input type="password" placeholder="Password" />
                             <button>Register</button>
                             <br />
+                            <div className="thirdParty">
+                                <button>Google</button>
+                            </div>
                             <Link to="/login">Already have an account</Link>
                         </div>
                     </form>
