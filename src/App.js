@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import FoodDetails from './Pages/Booking/FoodDetails/FoodDetails';
+import Foods from './Pages/Foods/Foods/Foods';
 import Home from './Pages/Home/Home';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route exact path="/">
               <Home></Home>
+          </Route>
+          <Route exact path="/meals">
+              <Foods></Foods>
           </Route>
           <Route path="/food/:foodId">
             <FoodDetails></FoodDetails>
