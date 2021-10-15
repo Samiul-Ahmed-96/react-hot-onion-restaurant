@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useParams } from "react-router";
+import './FoodDetails.css';
 
 const FoodDetails = () => {
     const {foodId} = useParams();
@@ -20,8 +21,8 @@ const FoodDetails = () => {
 
     return (
         <div>
-            <Container>
-                <Row className="align-items-center">
+            <Container> 
+                <Row className="align-items-center my-5">
                     <Col md={6}>
                         <div className="single-item-img">
                             <img className="w-100" src={singleFood?.img} alt="" />
@@ -33,7 +34,7 @@ const FoodDetails = () => {
                             <p>{singleFood?.description}</p>
                             <small>{singleFood?.rating}</small>
                             <h3>${singleFood?.price}</h3>
-                            <button>Add to Cart</button>
+                            <button className="addcart-btn">Add to Cart</button>
                         </div>
                     </Col>
                 </Row>

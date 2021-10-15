@@ -4,6 +4,8 @@ import './App.css';
 import FoodDetails from './Pages/Booking/FoodDetails/FoodDetails';
 import Foods from './Pages/Foods/Foods/Foods';
 import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Register from "./Pages/Register/Register";
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 
@@ -15,6 +17,12 @@ function App() {
         <Switch>
           <Route path="/home">
               <Home></Home>
+          </Route>
+          <Route path="/signup">
+              <Register></Register>
+          </Route>
+          <Route path="/login">
+              <Login></Login>
           </Route>
           <Route exact path="/">
               <Home></Home>

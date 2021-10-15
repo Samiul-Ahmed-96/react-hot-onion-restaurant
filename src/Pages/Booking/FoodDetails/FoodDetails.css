@@ -1,0 +1,13 @@
+.addcart-btn {
+  padding: 10px 15px;
+  background: red;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 15px 0px;
+  transition: 0.3s;
+}
+.addcart-btn:hover {
+  background: #262626;
+}

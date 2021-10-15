@@ -37,6 +37,7 @@ const Banner = () => {
                </Col>
             </Row>
             <Container>
+            <h2 className="my-5 text-white text-center">Our Meals</h2>
             <Row>
             {
                 matchedFood.map(matchItem => <SearchItem key={matchItem.id} matchItem={matchItem}></SearchItem>)
