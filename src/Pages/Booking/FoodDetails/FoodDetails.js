@@ -2,10 +2,11 @@ import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useParams } from "react-router";
+import { useHistory, useParams } from "react-router";
 import './FoodDetails.css';
 
 const FoodDetails = () => {
+    let history = useHistory();
     const {foodId} = useParams();
     const [foods,setFoods] = useState([]);
     const [singleFood ,setSingleFood] = useState({});
@@ -35,6 +36,10 @@ const FoodDetails = () => {
        }
     }
 
+    const handleAddToCart =()=>{
+        history.push("/cart")
+    }
+
     return (
         <div>
             <Container> 
@@ -55,7 +60,7 @@ const FoodDetails = () => {
                                     <span>{quantity}</span>
                                 <button onClick={handleQunatityDecrement}><FontAwesomeIcon icon={faMinus} /> </button>
                             </div>
-                            <button className="addcart-btn">Add to Cart</button>
+                            <button onClick={handleAddToCart} className="addcart-btn">Add to Cart</button>
                         </div>
                     </Col>
                 </Row>
