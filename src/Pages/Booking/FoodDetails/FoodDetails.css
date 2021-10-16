@@ -11,3 +11,23 @@
 .addcart-btn:hover {
   background: #262626;
 }
+.handleQuantity button {
+  background: red;
+  border: 2px solid red;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.handleQuantity button:hover {
+  background: #262626;
+}
+.handleQuantity span {
+  margin: 0px 10px;
+  font-size: 25px;
+}
+
+.handleQuantity {
+  margin: 20px 0px;
+}

@@ -1,3 +1,5 @@
+import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useParams } from "react-router";
@@ -7,6 +9,8 @@ const FoodDetails = () => {
     const {foodId} = useParams();
     const [foods,setFoods] = useState([]);
     const [singleFood ,setSingleFood] = useState({});
+    const [quantity, setQuantity] = useState(1);
+    const [cartItemPrice ,setCartItemPrice] =useState(singleFood?.price);
 
     useEffect(()=>{
         fetch('/foodsDetails.json')
@@ -18,6 +22,19 @@ const FoodDetails = () => {
         const getFood = foods.find(food => food.id === foodId);
         setSingleFood(getFood);
     },[foods])
+
+
+    const handleQunatityIncrement = () =>{
+            const newQuantity = quantity + 1;
+            setQuantity(newQuantity);
+    }
+
+    const handleQunatityDecrement = () =>{
+       if(quantity > 1){
+        const newQuantity = quantity - 1;
+        setQuantity(newQuantity);
+       }
+    }
 
     return (
         <div>
@@ -34,6 +51,11 @@ const FoodDetails = () => {
                             <p>{singleFood?.description}</p>
                             <small>{singleFood?.rating}</small>
                             <h3>${singleFood?.price}</h3>
+                            <div className="handleQuantity">
+                                <button onClick={handleQunatityIncrement}><FontAwesomeIcon icon={faPlus} /></button>
+                                    <span>{quantity}</span>
+                                <button onClick={handleQunatityDecrement}><FontAwesomeIcon icon={faMinus} /> </button>
+                            </div>
                             <button className="addcart-btn">Add to Cart</button>
                         </div>
                     </Col>
