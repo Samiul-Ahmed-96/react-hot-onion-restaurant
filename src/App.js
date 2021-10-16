@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import AuthProvider from './Context/AuthProvider';
 import FoodDetails from './Pages/Booking/FoodDetails/FoodDetails';
 import Foods from './Pages/Foods/Foods/Foods';
 import Home from './Pages/Home/Home';
@@ -12,6 +13,7 @@ import Header from './Pages/Shared/Header/Header';
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <BrowserRouter>
       <Header></Header>
         <Switch>
@@ -36,6 +38,7 @@ function App() {
         </Switch>
       <Footer></Footer>
       </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

@@ -13,7 +13,6 @@ const Login = () => {
                             <input type="email" placeholder="Email" />
                             <input type="password" placeholder="Password" />
                             <button>Login</button>
-
                         </div>
                     </form>
                 </Col>

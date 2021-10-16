@@ -26,6 +26,7 @@
 .main-menu ul li {
   display: inline-block;
   margin: 0px 10px;
+  color: #fff;
 }
 .SignUp {
   background-color: red;
@@ -34,4 +35,13 @@
 }
 a.cartIcon img {
   width: 30px;
+}
+.main-menu ul li button {
+  background: #e4e4e4;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 600;
 }

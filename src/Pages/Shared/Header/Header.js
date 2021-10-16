@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 import cartIcon from "../../../Images/header/trolley.png";
 import logo from "../../../Images/logo.png";
 import './Header.css';
+import useAuth from "../../../Hooks/useAuth";
 
 const Header = () => {
+    const{user,handleSignOut} = useAuth();
     return (
         <div>
-            <div className="header" sticky="top">
+            <div className="header">
                 <Container>
                     <div className="header-main">
                         <Row className="header-fixed">
@@ -24,6 +26,10 @@ const Header = () => {
                                         <li><Link to="/home">Home</Link></li>
                                         <li><Link to="/meals">Meals</Link></li>
                                         <li><Link to="/login">Login</Link></li>
+                                        <li>{user?.displayName}</li>
+                                        {
+                                            user?.email && <li><button onClick={handleSignOut}>Logout</button></li>
+                                        }
                                         <li><Link to="/signup" className="SignUp">Sign up</Link></li>
                                     </ul>
                                 </div>
