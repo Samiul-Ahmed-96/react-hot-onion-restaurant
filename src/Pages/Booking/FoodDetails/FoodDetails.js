@@ -10,7 +10,6 @@ const FoodDetails = () => {
     const [foods,setFoods] = useState([]);
     const [singleFood ,setSingleFood] = useState({});
     const [quantity, setQuantity] = useState(1);
-    const [cartItemPrice ,setCartItemPrice] =useState(singleFood?.price);
 
     useEffect(()=>{
         fetch('/foodsDetails.json')

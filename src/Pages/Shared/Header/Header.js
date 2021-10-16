@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from "../../../Hooks/useAuth";
 import cartIcon from "../../../Images/header/trolley.png";
 import logo from "../../../Images/logo.png";
 import './Header.css';
-import useAuth from "../../../Hooks/useAuth";
 
 const Header = () => {
     const{user,handleSignOut} = useAuth();
