@@ -19,7 +19,7 @@ const Register = () => {
                             <input type="password" placeholder="Password" />
                             <button>Register</button>
                             <br />
-                            <Link>
+                            <Link to="/SignUp">
                                  <button onClick={signInUsingGoogle}>Sign In Using Google</button>
                             </Link>
                             <Link to="/login">Already have an account</Link>

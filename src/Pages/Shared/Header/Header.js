@@ -22,14 +22,21 @@ const Header = () => {
                             <Col xs={12} md={10}>
                                 <div className="main-menu">
                                     <ul>
-                                        <li><Link to="/cart" className="cartIcon"><img src={cartIcon} alt="" /></Link></li>
+                                       
                                         <li><Link to="/home">Home</Link></li>
                                         <li><Link to="/meals">Meals</Link></li>
-                                        <li><Link to="/login">Login</Link></li>
+                                        
+                                        {
+                                         !user.email && <li><Link to="/login">Login</Link></li>
+                                        }
+                                        {
+                                          user.email && <li><img src={user.photoURL} alt="" /></li>
+                                        }
                                         <li>{user?.displayName}</li>
                                         {
                                             user?.email && <li><button onClick={handleSignOut}>Logout</button></li>
                                         }
+                                        <li><Link to="/cart" className="cartIcon"><img src={cartIcon} alt="" /></Link></li>
                                         <li><Link to="/signup" className="SignUp">Sign up</Link></li>
                                     </ul>
                                 </div>
