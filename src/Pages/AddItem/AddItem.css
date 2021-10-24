@@ -1,0 +1,12 @@
+form.form-item {
+  text-align: center;
+}
+form.form-item textarea {
+  width: 50%;
+  margin: 0px auto;
+  background: #2c2c2c;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}

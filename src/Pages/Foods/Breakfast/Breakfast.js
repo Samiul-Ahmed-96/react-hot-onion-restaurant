@@ -6,7 +6,7 @@ const Breakfast = () => {
     const [breakfasts,setBreakfast] = useState([])
 
     useEffect(()=>{
-        fetch("/Breakfast.json")
+        fetch("http://localhost:5000/items")
         .then(res => res.json())
         .then(data => setBreakfast(data))
     },[])
