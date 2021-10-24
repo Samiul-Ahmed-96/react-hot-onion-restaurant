@@ -25,6 +25,7 @@ const Header = () => {
                                        
                                         <li><Link to="/home">Home</Link></li>
                                         <li><Link to="/meals">Meals</Link></li>
+                                        <li><Link to="/additem">Add Item </Link></li>
                                         
                                         {
                                          !user.email && <li><Link to="/login">Login</Link></li>

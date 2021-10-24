@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './Context/AuthProvider';
+import AddItem from './Pages/AddItem/AddItem';
 import Cart from './Pages/Booking/Cart/Cart';
 import FoodDetails from './Pages/Booking/FoodDetails/FoodDetails';
 import Foods from './Pages/Foods/Foods/Foods';
@@ -31,6 +32,9 @@ function App() {
           <Route path="/login">
               <Login></Login>
           </Route>
+          <Route path="/additem">
+              <AddItem></AddItem>
+          </Route> 
           <Route exact path="/">
               <Home></Home>
           </Route>
